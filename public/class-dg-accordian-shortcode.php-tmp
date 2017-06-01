@@ -1,0 +1,32 @@
+<?php
+class Accordian_Shortcode {
+
+	public function __construct() {
+		defined('WPINC') or exit;
+		add_shortcode('baztag', array($this, 'dg_accordian'));
+	}
+
+	public function default() {
+		return array(
+			'category'  => '',
+			'post_type' => '',
+		);
+
+		new WP_Query();
+	}
+
+	public function dg_accordian($atts, $content = "") {
+		//return "content = $content";
+	}
+
+	public function
+
+	public function template($atts) {
+		$accordian = new Dg_Accordian_Loader();
+		$accordian->dg_template_part('public/partials/dg-accordian-public-display.php');
+
+	}
+
+}
+
+new Accordian_Shortcode();
