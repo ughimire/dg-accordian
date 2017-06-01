@@ -1,0 +1,25 @@
+{
+  "name": "dg-accordian",
+  "version": "1.0.0",
+  "description": "Accordian plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ughimire/dg-accordian.git"
+  },
+  "keywords": [
+    "accordian"
+  ],
+  "author": "Umesh Ghimire <me.umeshuser@gmail.com> (http://umeshghimire.com.np)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ughimire/dg-accordian/issues"
+  },
+  "homepage": "https://github.com/ughimire/dg-accordian#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
